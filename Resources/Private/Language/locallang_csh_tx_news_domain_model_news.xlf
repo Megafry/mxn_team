@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:mxn_team/Resources/Private/Language/locallang_csh" date="2020-06-26T11:28:39Z" product-name="mxn_team">
+		<header/>
+		<body>
+			<trans-unit id="card.description" resname="card.description">
+				<source>card</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

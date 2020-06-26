@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:mxn_team/Resources/Private/Language/locallang" date="2020-06-26T11:28:39Z" product-name="mxn_team">
+		<header/>
+		<body>
+			<trans-unit id="tx_mxnteam_domain_model_team" resname="tx_mxnteam_domain_model_team">
+				<source>Team</source>
+			</trans-unit>
+			<trans-unit id="tx_mxnteam_domain_model_team.card" resname="tx_mxnteam_domain_model_team.card">
+				<source>Card</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
