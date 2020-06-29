@@ -4,13 +4,13 @@ config.tx_extbase {
     classes {
       GeorgRinger\News\Domain\Model\News {
         subclasses {
-          3 = Mexan\MxnTeam\Domain\Model\Team
+          Mexan\MxnTeam\Domain\Model\Team = Mexan\MxnTeam\Domain\Model\Team
         }
       }
       Mexan\MxnTeam\Domain\Model\Team {
         mapping {
           tableName = tx_news_domain_model_news
-          recordType = 3
+          recordType = Mexan\MxnTeam\Domain\Model\Team
         }
       }
     }

@@ -22,9 +22,9 @@ $fields = [
 */
 
 
-$GLOBALS['TCA']['tx_news_domain_model_news']['columns']['type']['config']['items']['3'] =
-  ['team', 3] ;
+$GLOBALS['TCA']['tx_news_domain_model_news']['columns']['type']['config']['items'][\Mexan\MxnTeam\Domain\Model\Team::class] =
+  ['team', \Mexan\MxnTeam\Domain\Model\Team::class] ;
 
-$GLOBALS['TCA']['tx_news_domain_model_news']['types']['3'] = [
+$GLOBALS['TCA']['tx_news_domain_model_news']['types'][\Mexan\MxnTeam\Domain\Model\Team::class] = [
   'showitem' => 'type,title, bodytext, card'
 ];
