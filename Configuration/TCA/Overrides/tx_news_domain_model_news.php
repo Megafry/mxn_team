@@ -28,3 +28,10 @@ $GLOBALS['TCA']['tx_news_domain_model_news']['columns']['type']['config']['items
 $GLOBALS['TCA']['tx_news_domain_model_news']['types'][\Mexan\MxnTeam\Domain\Model\Team::class] = [
   'showitem' => 'type,title, bodytext, card'
 ];
+
+$GLOBALS['TCA']['tx_news_domain_model_news']['columns']['type']['config']['items'][\Mexan\MxnTeam\Domain\Model\Client::class] =
+  ['client', \Mexan\MxnTeam\Domain\Model\Client::class] ;
+
+$GLOBALS['TCA']['tx_news_domain_model_news']['types'][\Mexan\MxnTeam\Domain\Model\Client::class] = [
+  'showitem' => 'type,title, bodytext, card'
+];
